@@ -3,8 +3,8 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
-from src.mcqgenrator.utils import read_file,get_table_data
-from src.mcqgenrator.logger import logging
+from src.mcqgenerator.utils import read_file,get_table_data
+from src.mcqgenerator.logger import logging
 
 #imporing necessary packages packages from langchain
 from langchain.chat_models import ChatOpenAI
@@ -35,7 +35,7 @@ Ensure to make {number} MCQs
 """
 
 quiz_generation_prompt = PromptTemplate(
-    input_variables=["text", "number", "grade", "tone", "response_json"],
+    input_variables=["text", "number", "subject", "tone", "response_json"],
     template=template)
 
 
