@@ -41,6 +41,7 @@ Input your data through the Streamlit interface:
 - `Number of MCQs`: Specify the number of MCQs to generate.
 - `Subject`: Insert the subject of content.
 - `Complexity Level`: Choose the complexity level of questions.
+  
 ![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/98b00f56-94b0-4872-a448-0d310fa70ae5)
 
 ## Terminal Output
