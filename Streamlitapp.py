@@ -11,8 +11,9 @@ from src.mcqgenerator.logger import logging
 
 #loading json file
 
-with open('C:\Users\rajmu\OneDrive\Desktop\MCQgen\Response.json', 'r') as file:
+with open(r'C:\Users\rajmu\OneDrive\Desktop\MCQgen\Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
+
 
 #creating a title for the app
 st.title("MCQs Creator Application with LangChain 🦜⛓️")
