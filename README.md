@@ -26,3 +26,18 @@ streamlit run Streamlitapp.py
 8) data.txt: Sample data for testing.
 9) Response.json: Configuration for LangChain callbacks.
 
+### Input:
+File Upload: Users can upload a text or PDF file (up to 200MB) that contains the content for generating MCQs.
+
+Number of MCQs: Users can specify the desired number of MCQs to generate.
+
+Subject: Users have the option to insert the subject related to the content.
+
+Complexity Level: Users can select the complexity level of the questions, such as 'Simple', 'Intermediate', or 'Advanced'.
+
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/b7f0ad91-d560-4a1d-8880-b3f99037da73)
+
+
+
+### Output:
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/98f3f6bf-7300-47ac-a175-ec30217801b1)
