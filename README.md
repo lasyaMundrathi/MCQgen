@@ -1,4 +1,4 @@
-# MCQ Generator with LangChain and Streamlit
+# MCQ Generator with LangChain and Streamlit 🦜⛓️
 
 This project leverages the power of LangChain and Streamlit to create an interactive application that generates multiple-choice questions (MCQs) from the input text. It's designed to help educators, content creators, and anyone interested in generating quizzes or tests efficiently.
 
