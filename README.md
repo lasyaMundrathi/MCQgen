@@ -2,7 +2,7 @@
 
 This project leverages the power of LangChain and Streamlit to create an interactive application that generates multiple-choice questions (MCQs) from the input text. It's designed to help educators, content creators, and anyone interested in generating quizzes or tests efficiently.
 
-##Features
+## Features
 Upload Text or PDF: Easily upload your content in text or PDF format.
 Customizable MCQ Generation: Specify the number of MCQs, subject, and complexity level.
 Interactive Web Application: Built with Streamlit, offering a user-friendly interface.
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 or
 python setup.py install
 
-## run Application
+## Run Application
 streamlit run Streamlitapp.py
 
 ### Project structure 
