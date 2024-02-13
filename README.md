@@ -42,7 +42,8 @@ Input your data through the Streamlit interface:
 - `Subject`: Insert the subject of content.
 - `Complexity Level`: Choose the complexity level of questions.
   
-![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/98b00f56-94b0-4872-a448-0d310fa70ae5)
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/8778cda7-8ddb-4ee0-938d-6c3c71298250)
+
 
 ## Terminal Output
 Running the Streamlit application using **streamlit run Streamlitapp.py** initiates the MCQ generation process.
