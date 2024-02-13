@@ -3,15 +3,15 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
-from src.mcqgenrator.utils import read_file,get_table_data
+from src.mcqgenerator.utils import read_file,get_table_data
 import streamlit as st
 from langchain.callbacks import get_openai_callback
-from src.mcqgenrator.MCQGenrator import generate_evaluate_chain
-from src.mcqgenrator.logger import logging
+from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
+from src.mcqgenerator.logger import logging
 
 #loading json file
 
-with open('Response.json', 'r') as file:
+with open('C:\Users\rajmu\OneDrive\Desktop\MCQgen\Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #creating a title for the app
