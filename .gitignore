@@ -1,2 +1,6 @@
 .venv
+logs
+mcqgenrator.egg-info
 .env
+build 
+dist
