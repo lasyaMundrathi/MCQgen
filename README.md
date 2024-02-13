@@ -7,14 +7,6 @@ Upload Text or PDF: Easily upload your content in text or PDF format.
 Customizable MCQ Generation: Specify the number of MCQs, subject, and complexity level.
 Interactive Web Application: Built with Streamlit, offering a user-friendly interface.
 
-## Installation
-pip install -r requirements.txt
-or
-python setup.py install
-
-## Run Application
-streamlit run Streamlitapp.py
-
 ### Project structure 
 1) src/mcqgenerator: Contains the core logic for MCQ generation.
 2) MCQGenerator.py: The main script for generating MCQs.
@@ -26,7 +18,15 @@ streamlit run Streamlitapp.py
 8) data.txt: Sample data for testing.
 9) Response.json: Configuration for LangChain callbacks.
 
-### Input:
+## Installation
+pip install -r requirements.txt
+or
+python setup.py install
+
+## Run Application
+streamlit run Streamlitapp.py
+
+### Streamlit web Interface:
 File Upload: Users can upload a text or PDF file (up to 200MB) that contains the content for generating MCQs.
 
 Number of MCQs: Users can specify the desired number of MCQs to generate.
@@ -35,10 +35,17 @@ Subject: Users have the option to insert the subject related to the content.
 
 Complexity Level: Users can select the complexity level of the questions, such as 'Simple', 'Intermediate', or 'Advanced'.
 
-![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/b7f0ad91-d560-4a1d-8880-b3f99037da73)
-
-
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/98b00f56-94b0-4872-a448-0d310fa70ae5)
 
 ### Output:
-![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/da161c2f-3915-4932-853e-6163ad55427c)
+Running the Streamlit application using **streamlit run Streamlitapp.py** initiates the MCQ generation process.
+
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/214fe1ca-5e82-4cec-8579-498e4f1026b0)
+
+ Upon completion, the terminal will display a summary of the LangChain operation, which includes token usage and the associated cost. Here's an example of the expected terminal output:
+ 
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/28957573-2536-4cba-9763-e9748ad77d5c)
+
+
+
 
