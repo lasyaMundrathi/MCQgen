@@ -1,0 +1,6 @@
+MCQ,Choices,Correct
+What is the goal of machine learning?,a: To develop and study statistical algorithms | b: To perform tasks without explicit instructions | c: To generalize to unseen data | d: All of the above,d
+Which field of study focuses on exploratory data analysis through unsupervised learning?,a: Machine learning | b: Artificial intelligence | c: Data mining | d: Statistics,c
+Who coined the term 'machine learning'?,a: Arthur Samuel | b: Donald Hebb | c: Tom M. Mitchell | d: Alan Turing,a
+What is the main difference between machine learning and statistics?,"a: Machine learning focuses on generalizable predictive patterns, while statistics draws population inferences from a sample | b: Machine learning requires a priori selection of a model, while statistics shapes the model based on underlying patterns | c: Machine learning is not built on a pre-structured model, while statistics requires a pre-structured model | d: Machine learning and statistics have the same principal goal",a
+What is the goal of data mining?,a: To predict future outcomes based on known properties | b: To discover previously unknown properties in the data | c: To evaluate the performance of machine learning algorithms | d: To optimize the loss function on a training set,b
