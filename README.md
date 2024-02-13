@@ -40,4 +40,5 @@ Complexity Level: Users can select the complexity level of the questions, such a
 
 
 ### Output:
-![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/98f3f6bf-7300-47ac-a175-ec30217801b1)
+![image](https://github.com/lasyaMundrathi/MCQgen/assets/98383338/da161c2f-3915-4932-853e-6163ad55427c)
+
