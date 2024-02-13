@@ -10,13 +10,13 @@ This project harnesses LangChain and Streamlit to create a dynamic application f
 
 ## Project Structure
 
-- `src/mcqgenerator`: Core logic for MCQ generation.
-  - `MCQGenerator.py`: Generates the MCQs.
+- `src/mcqgenerator`: Contains the core logic for MCQ generation.
+  - `MCQGenerator.py`: The main script for generating MCQs.
   - `utils.py`: Assists with file operations and data handling.
   - `logger.py`: Manages logging.
 - `Streamlitapp.py`: Interface of the Streamlit app.
 - `requirements.txt`: Lists dependencies.
-- `setup.py`: Installs the project.
+- `setup.py`:  Setup script for installing the project.
 - `data.txt`: Provides sample data.
 - `Response.json`: Manages LangChain callbacks.
 
